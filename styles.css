@@ -183,3 +183,16 @@ nav {
     }
   }
   
+
+  .image-gallery figure {
+    width: 100%;
+    max-width: calc(100% / 3 - 1rem); 
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .image-gallery figure {
+        max-width: 100%; 
+    }
+}
